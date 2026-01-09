@@ -59,7 +59,7 @@
                         From models to agents—I build <span class="highlight">AI</span> that actually works.
                     </p>
                     <div class="hero-actions">
-                        <a href="#contact" class="btn-primary">Book a Call</a>
+                        <button id="bookCallBtn" class="btn-primary">Book a Call</button>
                         <a href="#projects" class="btn-secondary">View Work</a>
                     </div>
                 </div>
@@ -206,6 +206,43 @@
             </div>
         </footer>
     </main>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal-content glass">
+            <button class="close-modal">&times;</button>
+            <h2>Let's Connect</h2>
+            <p>Choose your preferred way to reach me.</p>
+
+            <div class="contact-options">
+                <!-- Email Option -->
+                <a href="mailto:shivam2002rustagi@gmail.com" class="contact-option">
+                    <div class="icon-box">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <div class="option-details">
+                        <span class="label">Email Me</span>
+                        <span class="value">shivam2002rustagi@gmail.com</span>
+                    </div>
+                </a>
+
+                <!-- WhatsApp Option -->
+                <a href="https://wa.me/911234567890" target="_blank" class="contact-option whatsapp">
+                    <div class="icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-message-circle">
+                            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+                        </svg>
+                    </div>
+                    <div class="option-details">
+                        <span class="label">WhatsApp</span>
+                        <span class="value">Chat directly</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script>
