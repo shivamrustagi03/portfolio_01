@@ -346,6 +346,11 @@ a {
     color: var(--text-primary);
 }
 
+/* Reduce gap between contribution graph and Life section */
+#life {
+    padding-top: 1rem;
+}
+
 /* Projects Grid */
 .projects-grid {
     display: grid;
@@ -437,6 +442,7 @@ a {
 
 /* Life / Interests */
 .interests-grid {
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -654,7 +660,7 @@ a {
 
 /* Contribution Graph */
 .contribution-section {
-    margin-top: 4rem;
+    margin-top: 5.5rem;
     padding: 1rem;
     /* Reduced padding to make active area larger */
     border-radius: 1rem;
